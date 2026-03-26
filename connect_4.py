@@ -1,17 +1,4 @@
-"""
-Project: Game Connect-4 in Terminal
-File: connect_four.py
-Author: Ivaylo Stoyanov - Devihem
 
-Description: This is a basic project that recreates the game Connect 4. It is played in the terminal.
-The script give the user options to choose a gameplay mode: default mode with two players and a standard board,
-or a custom mode with two to six players and a custom board. In the custom mode, the user can choose the number of rows,
-columns, and players. Each player can also choose a name and select a color.
-
-Players take turns placing their tokens on the board by selecting a column.
-If a player has four or more tokens in a row, column, or diagonal connected together the player wins.
-If no player wins and the board is full, the game is considered a draw.
-"""
 
 import re
 import random
